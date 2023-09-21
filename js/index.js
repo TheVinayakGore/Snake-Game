@@ -41,7 +41,6 @@ function gameEngine() {
     snakeArr.unshift({x: snakeArr[0].x + inputDir.x, y: snakeArr[0].y + inputDir.y});
   }
 
-
   // part 2 : Display the snake & food
   // Display the snake
   board.innerHTML = "";
